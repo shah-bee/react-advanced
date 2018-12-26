@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import Blog from './containers/Blog';
+import Blog from './containers/Blog/Blog';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 

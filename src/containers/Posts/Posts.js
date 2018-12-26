@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Post from '../Post/Post';
+import Post from '../../components/Post/Post';
 import axios from 'axios';
 class Posts extends Component {
 
@@ -13,7 +13,6 @@ class Posts extends Component {
                 this.setState({
                     posts: response.data
                 })
-                console.log(this.state.posts);
             });
     }
 
